@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Game Accounts Store</title>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #111;
+    color: white;
+    text-align: center;
+}
+
+header {
+    background: #1e1e1e;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 30px;
+    gap: 20px;
+}
+
+.card {
+    background: #222;
+    padding: 20px;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.card h3 {
+    margin: 10px 0;
+}
+
+.price {
+    color: #00ff99;
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+button {
+    background: #00ff99;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background: #00cc77;
+}
+
+footer {
+    margin-top: 40px;
+    padding: 20px;
+    background: #1e1e1e;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+🎮 Game Accounts Store
+</header>
+
+<div class="container">
+
+    <div class="card">
+        <h3>Master Duel Account</h3>
+        <p>5000+ Gems Ready</p>
+        <div class="price">$15</div>
+        <button onclick="contact()">Buy Now</button>
+    </div>
+
+    <div class="card">
+        <h3>Starter Account</h3>
+        <p>3000 Gems + Solo Completed</p>
+        <div class="price">$10</div>
+        <button onclick="contact()">Buy Now</button>
+    </div>
+
+</div>
+
+<footer>
+Contact me on Discord: YourDiscord#0000
+</footer>
+
+<script>
+function contact() {
+    alert("Please contact me on Discord to complete your purchase.");
+}
+</script>
+
+</body>
+</html>
